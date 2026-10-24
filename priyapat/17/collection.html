@@ -1,0 +1,392 @@
+<!doctype html>
+<html lang="th" data-bs-theme="light">
+
+<head>
+    <title>HOME | Personal Collection</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS v5.3.8 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" />
+
+    <meta name="description" content="หนัง เพลง หนังสือ และของที่ชอบ กลับมาดูเมื่อไรก็ยังชอบอยู่" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,600;1,700&amp;family=Noto+Sans+Thai:wght@400;500;600&amp;display=swap" />
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body id="top">
+    <a class="skip-link" href="#main">ข้ามไปเนื้อหา</a>
+    <header class="site-header">
+        <!-- place navbar here -->
+        <nav class="navbar navbar-expand-md navbar-light" aria-label="เมนูหลัก">
+            <!-- เติม: กรอบเมนู -->
+            <div class="container">
+                <a class="navbar-brand" href="index.html">Personal
+                    Collection</a>
+                <!-- เติม: ปุ่มเปิดเมนู -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#mainNav"
+                    aria-controls="mainNav" aria-label="เปิดเมนู">
+                    <i class="icon" data-lucide="menu" aria-hidden="true"></i>
+                </button>
+                <!-- เติม: offcanvas-md -->
+                <div class="offcanvas-md offcanvas-end" tabindex="-1" id="mainNav" aria-labelledby="menuTitle">
+                    <!-- เติม: หัวเมนูมือถือ -->
+                    <div class="offcanvas-header">
+                        <span id="menuTitle">Personal Collection</span>
+                        <button class="menu-close" type="button" data-bs-dismiss="offcanvas" data-bs-target="#mainNav"
+                            aria-label="ปิดเมนู">
+                            <i class="icon" data-lucide="x" aria-hidden="true"></i>
+                        </button>
+                    </div>
+                    <!-- เติม: เนื้อหาเมนู -->
+                    <div class="offcanvas-body">
+                        <!-- เติม: รายการลิงก์ -->
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="story.html">Story</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="collection.html" aria-current="page">Collection</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="about.html">About</a>
+                            </li>
+                        </ul>
+                        <!-- เติม: ช่องทางติดต่อในเมนู -->
+                        <div class="mobile-contact">
+                            <a class="menu-email email-link" href="mailto:hello@example.com">
+                                <i class="icon" data-lucide="container" aria-hidden="true"></i>
+                                <span>hello@example.com</span>
+                            </a>
+                            <div class="menu-socials">
+                                <a href="https://www.instagram.com/" target="_blank"
+                                    rel="noopener noreferrer">Instagram</a>
+                                <a href="https://www.behance.net/" target="_blank" rel="noopener noreferrer">Behance</a>
+                                <a href="https://github.com/" target="_blank" rel="noopener noreferrer">GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main id="main" tabindex="-1">
+        <!-- เติม: ภาพและหัวเรื่อง Home -->
+        <section class="home-hero container">
+            <div class="row hero-row">
+                <div class="col-lg-6 hero-copy">
+                    <h1>
+                        Things I
+                        <br />
+                        <em>keep close.</em>
+                    </h1>
+                    <a class="btn btn-dark" href="collection.html">
+                        Collection
+                        <i class="icon" data-lucide="arrow-up-right" aria-hidden="true"></i>
+                    </a>
+                </div>
+                <div class="col-lg-6 hero-art">
+                    <img class="hero-books" src="assets/images/about/books.jpg" alt="ชั้นหนังสือในร้านหนังสือสีม่วง" />
+                    <img class="hero-records" src="assets/images/home/waguri.jpg" alt="ปกอนิเมะ" />
+                    <img class="hero-camera" src="assets/images/home/kurumimagarong.png" alt="คุโรมิมาการอง" />
+                </div>
+            </div>
+        </section>
+        <!-- เติม: ส่วน A day off -->
+        <section class="home-links container">
+            <!-- เติม: row -->
+            <div class="row gx-lg-5 gy-5">
+                <!-- เติม: col-md-7 -->
+                <div class="col-md-7">
+                    <a class="story-preview" href="story.html">
+                        <div class="preview-heading">
+                            <h2>
+                                A day
+                                <br />
+                                off.
+                            </h2>
+                            <i class="icon" data-lucide="arrow-up-right" aria-hidden="true"></i>
+                        </div>
+                        <img class="preview-image" src="assets/images/home/Kuromi.jpg" alt="คุโรมินอนอ้วง"
+                            loading="lazy" />
+                    </a>
+                </div>
+                <!-- เติม: col-md-5 -->
+                <div class="col-md-5 home-note">
+                    <h2>
+                        Not quite
+                        <br />
+                        a shelf.
+                    </h2>
+                    <p>
+                        มีทั้งหนังที่ดูซ้ำ เพลงที่เปิดวน มังงะที่ยังอ่านไม่จบ
+                        แล้วก็ชอบนอนเป็นชีวิตจิตใจ
+                    </p>
+                    <a class="text-link" href="about.html">
+                        About me
+                        <i class="icon" data-lucide="arrow-up-right" aria-hidden="true"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <main id="main" tabindex="-1">
+        <!-- หัวเรื่อง Collection -->
+        <section class="collection-intro container">
+            <h1>
+                Collected
+                <br />
+                <em>favorites.</em>
+            </h1>
+        </section>
+        <!-- แถวภาพ Collection -->
+        <section class="board-section" aria-label="Collection">
+            <!-- ปุ่มเลื่อนภาพ -->
+            <div class="board-toolbar container">
+                <div class="board-navigation">
+                    <button class="motion-control" id="board-pause" type="button" aria-label="หยุดการเลื่อน"
+                        aria-pressed="false">
+                        <i class="icon" data-lucide="pause" aria-hidden="true"></i>
+                        <span>Pause</span>
+                    </button>
+                    <button class="motion-control" id="board-prev" type="button" aria-label="เลื่อนภาพก่อนหน้า">
+                        <i class="icon" data-lucide="arrow-left" aria-hidden="true"></i>
+                        <span>Previous</span>
+                    </button>
+                    <button class="motion-control" id="board-next" type="button" aria-label="เลื่อนภาพถัดไป">
+                        <span>Next</span>
+                        <i class="icon" data-lucide="arrow-right" aria-hidden="true"></i>
+                    </button>
+                </div>
+            </div>
+            <!-- กรอบภาพ -->
+            <div class="board-viewport" id="board-viewport" role="region" aria-label="ภาพในคอลเล็กชัน">
+                <!-- แถวภาพ -->
+                <div class="collage-board">
+                    <!-- รายการทั้งหมด -->
+                    <div class="collection-group">
+                        <!-- ภาพ Neon Genesis Evangelion -->
+                        <figure class="collection-item item-evangelion item-high">
+                            <a class="collection-image" href="detail.html?id=evangelion"
+                                aria-label="See details: Neon Genesis Evangelion">
+                                <img src="assets/images/collection/Neon Genesis Evangelion.jpg" alt="Neon Genesis Evangelion"
+                                    draggable="false" />
+                            </a>
+                            <figcaption>
+                                <h2>Neon Genesis Evangelion</h2>
+                                <p>ฉากต่อสู้ที่ยังอยากกลับไปดู</p>
+                                <p class="item-maker">Anno Hideaki</p>
+                                <a class="text-link" href="detail.html?id=evangelion">
+                                    See details
+                                    <i class="icon" data-lucide="arrow-up-right" aria-hidden="true"></i>
+                                </a>
+                            </figcaption>
+                        </figure>
+                        <!-- ภาพ Evanescence -->
+                        <figure class="collection-item item-evanescence item-low">
+                            <a class="collection-image" href="detail.html?id=evanescence"
+                                aria-label="See details: Evanescence">
+                                <img src="assets/images/collection/Evanescence.jpg"
+                                    alt="Evanescence" draggable="false" />
+                            </a>
+                            <figcaption>
+                                <h2>Bring Me To Life</h2>
+                                <p>เพลงที่ทำให้หัวใจเต้น</p>
+                                <p class="item-maker">Evanescence</p>
+                                <a class="text-link" href="detail.html?id=evanescence">
+                                    See details
+                                    <i class="icon" data-lucide="arrow-up-right" aria-hidden="true"></i>
+                                </a>
+                            </figcaption>
+                        </figure>
+                        <!-- คำว่า Good company -->
+                        <div class="scene-word" aria-hidden="true">
+                            No anime
+                            <br />
+                            <em>No life.</em>
+                        </div>
+                        <!-- ภาพ Kaoru Hana wa Rin to Saku -->
+                        <figure class="collection-item item-prince item-high">
+                            <a class="collection-image" href="detail.html?id=prince"
+                                aria-label="See details: Kaoru Hana wa Rin to Saku">
+                                <img src="assets/images/collection/Kaoru Hana wa Rin to Saku.jpg"
+                                    alt="Kaoru Hana wa Rin to Saku" draggable="false" />
+                            </a>
+                            <figcaption>
+                                <h2>Kaoru Hana wa Rin to Saku</h2>
+                                <p>อ่านได้อีก ฟินไม่ไหว</p>
+                                <p class="item-maker">Saka mikami</p>
+                                <a class="text-link" href="detail.html?id=prince">
+                                    See details
+                                    <i class="icon" data-lucide="arrow-up-right" aria-hidden="true"></i>
+                                </a>
+                            </figcaption>
+                        </figure>
+                        <!-- ภาพ cupcake -->
+                        <figure class="collection-item item-cupcake item-low">
+                            <a class="collection-image" href="detail.html?id=cupcake" aria-label="See details: cupcake">
+                                <img src="assets/images/collection/cupcakie.png" alt="cupcake" draggable="false" />
+                            </a>
+                            <figcaption>
+                                <h2>cupcake</h2>
+                                <p>ชอบรสชาติและรูปร่างของมัน</p>
+                                <p class="item-maker">Local Bakery</p>
+                                <a class="text-link" href="detail.html?id=cupcake">
+                                    See details
+                                    <i class="icon" data-lucide="arrow-up-right" aria-hidden="true"></i>
+                                </a>
+                            </figcaption>
+                        </figure>
+                        <!-- ภาพ Final Fantasy VII -->
+                        <figure class="collection-item item-final-fantasy item-high">
+                            <a class="collection-image" href="detail.html?id=final-fantasy"
+                                aria-label="See details: Final Fantasy VII">
+                                <img src="assets/images/collection/Final Fantasy VII.jpg" alt="Final Fantasy VII"
+                                    draggable="false" />
+                            </a>
+                            <figcaption>
+                                <h2>Final Fantasy VII</h2>
+                                <p>ชอบเนื้อเรื่องและตัวละครของมัน</p>
+                                <p class="item-maker">Nobuo Uematsu</p>
+                                <a class="text-link" href="detail.html?id=final-fantasy">
+                                    See details
+                                    <i class="icon" data-lucide="arrow-up-right" aria-hidden="true"></i>
+                                </a>
+                            </figcaption>
+                        </figure>
+                        <!-- คำว่า Worth keeping -->
+                        <div class="scene-word" aria-hidden="true">
+                            Same
+                            <br />
+                            <em>feeling.</em>
+                        </div>
+                        <!-- ภาพ don toliver -->
+                        <figure class="collection-item item-am item-low">
+                            <a class="collection-image" href="detail.html?id=am" aria-label="See details: AM">
+                                <img src="assets/images/collection/You (feat_ Travis Scott).jpg" alt="AM" draggable="false" />
+                            </a>
+                            <figcaption>
+                                <h2>You (feat_ Travis Scott)</h2>
+                                <p>ชอบที่สุดในอัลบั้ม</p>
+                                <p class="item-maker">Don Toliver</p>
+                                <a class="text-link" href="detail.html?id=am">
+                                    See details
+                                    <i class="icon" data-lucide="arrow-up-right" aria-hidden="true"></i>
+                                </a>
+                            </figcaption>
+                        </figure>
+                        <!-- ภาพ La La Land -->
+                        <figure class="collection-item item-lala item-medium">
+                            <a class="collection-image" href="detail.html?id=lala"
+                                aria-label="See details: La La Land">
+                                <img src="assets/images/collection/La La Land (2016).jpg" alt="La La Land" draggable="false" />
+                            </a>
+                            <figcaption>
+                                <h2>La La Land</h2>
+                                <p>ภาพยนตร์ซึ้งกินใจ</p>
+                                <p class="item-maker">Damien Chazelle</p>
+                                <a class="text-link" href="detail.html?id=lala">
+                                    See details
+                                    <i class="icon" data-lucide="arrow-up-right" aria-hidden="true"></i>
+                                </a>
+                            </figcaption>
+                        </figure>
+                        <!-- คำว่า One more song -->
+                        <div class="scene-word" aria-hidden="true">
+                            A little
+                            <br />
+                            <em>more.</em>
+                        </div>
+                        <!-- ภาพ CAT MAD -->
+                        <figure class="collection-item item-cat item-low">
+                            <a class="collection-image" href="detail.html?id=cat"
+                                aria-label="See details: CAT MAD">
+                                <img src="assets/images/collection/cat mad.jpg" alt="CAT MAD"
+                                    draggable="false" />
+                            </a>
+                            <figcaption>
+                                <h2>CAT MAD</h2>
+                                <p>แมวที่ชอบเล่นเกมจนหัวร้อนเหมือนตัวเอง</p>
+                                <p class="item-maker">Pet Lover</p>
+                                <a class="text-link" href="detail.html?id=cat">
+                                    See details
+                                    <i class="icon" data-lucide="arrow-up-right" aria-hidden="true"></i>
+                                </a>
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+    </main>
+    <footer>
+        <!-- place footer here -->
+        <footer class="site-footer">
+            <!-- เติม: คอลัมน์ท้ายเว็บ -->
+            <div class="footer-main">
+                <!-- เติม: footer-brand -->
+                <a class="footer-brand" href="index.html">
+                    Personal
+                    <br />
+                    Collection
+                </a>
+                <!-- เติม: nav -->
+                <nav aria-label="เมนูท้ายหน้า">
+                    <h2>Navigation</h2>
+                    <a href="index.html">Home</a>
+                    <a href="story.html">Story</a>
+                    <a href="collection.html">Collection</a>
+                    <a href="about.html">About</a>
+                </nav>
+                <!-- เติม: ช่องทางติดต่อ -->
+                <div class="footer-contact">
+                    <h2>Contact</h2>
+                    <!-- เติม: a -->
+                    <a href="mailto:priyapat.non@spumail.net">
+                        <i class="icon" data-lucide="mail" aria-hidden="true"></i>
+                        <span>priyapat.non@spumail.net</span>
+                    </a>
+                    <!-- เติม: ลิงก์โซเชียล -->
+                    <div class="social-links">
+                        <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">
+                            Instagram
+                            <i class="icon" data-lucide="arrow-up-right" aria-hidden="true"></i>
+                        </a>
+                        <a href="https://www.behance.net/" target="_blank" rel="noopener noreferrer">
+                            Behance
+                            <i class="icon" data-lucide="arrow-up-right" aria-hidden="true"></i>
+                        </a>
+                        <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                            GitHub
+                            <i class="icon" data-lucide="arrow-up-right" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- เติม: แถวลิขสิทธิ์ -->
+            <div class="footer-bottom">
+                <span>© 2026 Personal Collection</span>
+                <a href="#top">
+                    Back to top
+                    <i class="icon" data-lucide="arrow-up" aria-hidden="true"></i>
+                </a>
+            </div>
+        </footer>
+    </footer>
+    <!-- Bootstrap JavaScript Bundle (includes Popper) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
